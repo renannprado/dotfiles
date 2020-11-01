@@ -8,9 +8,7 @@
 - link:
     ~/.zshrc:
         path: zsh/zshrc
-    ~/.config/i3: 
-        force: true
-        path: i3
+    ~/.config/i3: i3
     # ~/.editorconfig:
     # ~/.gitconfig:
     # ~/.gitignore_global:
