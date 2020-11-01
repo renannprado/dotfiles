@@ -11,3 +11,7 @@ fi
 if [[ -e $HOME/.asdf/asdf.sh ]]; then
   source $HOME/.asdf/asdf.sh
 fi
+
+# Aliases
+alias k='kubectl'
+alias vim='nvim'
