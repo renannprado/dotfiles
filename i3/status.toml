@@ -5,7 +5,7 @@ icons = "awesome5"
 [[block]]
 block = "memory"
 display_type = "memory"
-format_mem = "{Mp}%/{MTm}MB"
+format_mem = "{MUp}%/{MTg}GB"
 
 [[block]]
 block = "cpu"
