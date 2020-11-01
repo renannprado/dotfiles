@@ -1,6 +1,7 @@
 theme = "solarized-dark"
 icons = "awesome5"
 
+# https://github.com/greshake/i3status-rust/blob/master/blocks.md
 
 [[block]]
 block = "memory"
@@ -23,6 +24,11 @@ alert = 10.0
 
 [[block]]
 block = "sound"
+
+[[block]]
+block = "weather"
+format = "{weather} {location} {temp}°"
+service = { name = "openweathermap", city_id = "2911298", units = "metric" }
 
 [[block]]
 block = "time"
