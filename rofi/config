@@ -6,4 +6,5 @@ configuration {
 	terminal: "alacritty";
 	separator-style: "solid";
     display-drun: "search";
+	theme: "/usr/share/rofi/themes/fancy.rasi";
 }
