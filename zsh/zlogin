@@ -1,1 +1,1 @@
-export NODE_EXTRA_CA_CERTS='~/workstation/ansible/roles/misc/files/certificates/root-ca-home.pem'
+export NODE_EXTRA_CA_CERTS='/opt/custom-certificates/root-ca-home.pem'
