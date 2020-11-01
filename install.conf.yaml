@@ -1,0 +1,32 @@
+- defaults:
+    link:
+        relink: true
+        create: true
+
+- clean: ['~']
+
+- link:
+    ~/.editorconfig:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.tmux.conf:
+    ~/.tool-versions:
+    ~/.zim:
+    ~/.zimrc:
+    ~/.zlogin:
+    ~/.zshenv:
+    ~/.zshrc:
+    ~/.zprofile:
+    ~/.profile:
+    ~/.Xresources:
+    ~/.bin: bin
+    ~/.config/i3: i3
+    ~/.config/i3-scrot.conf: i3-scrot.conf
+    ~/.config/polybar: polybar
+    ~/.config/dunst: dunst
+    ~/.config/rofi: rofi
+    ~/.config/nvim: nvim
+    ~/.config/alacritty: alacritty
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
