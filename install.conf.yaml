@@ -6,6 +6,9 @@
 - clean: ['~']
 
 - link:
+    ~/.zshrc:
+        path: zsh/zshrc
+    ~/.config/i3: i3
     # ~/.editorconfig:
     # ~/.gitconfig:
     # ~/.gitignore_global:
@@ -15,8 +18,6 @@
     # ~/.zimrc:
     # ~/.zlogin:
     # ~/.zshenv:
-    ~/.zshrc:
-        path: zsh/zshrc
     # ~/.zprofile:
     # ~/.profile:
     # ~/.Xresources:
