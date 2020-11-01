@@ -12,6 +12,7 @@
         path: zsh/zlogin
     ~/.config/i3: i3
     ~/.config/rofi: rofi
+    ~/.tool_versions:
     # ~/.editorconfig:
     # ~/.gitconfig:
     # ~/.gitignore_global:
