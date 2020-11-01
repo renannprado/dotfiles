@@ -8,6 +8,8 @@
 - link:
     ~/.zshrc:
         path: zsh/zshrc
+    ~/.zlogin:
+        path: zsh/zlogin
     ~/.config/i3: i3
     # ~/.editorconfig:
     # ~/.gitconfig:
