@@ -16,6 +16,7 @@
     # ~/.zlogin:
     # ~/.zshenv:
     ~/.zshrc:
+        path: zsh/zshrc
     # ~/.zprofile:
     # ~/.profile:
     # ~/.Xresources:
