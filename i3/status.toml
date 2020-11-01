@@ -1,5 +1,5 @@
 theme = "solarized-dark"
-icons = "awesome"
+icons = "awesome5"
 
 [[block]]
 block = "disk_space"
@@ -32,7 +32,7 @@ block = "sound"
 [[block]]
 block = "time"
 interval = 60
-format = "%a %d/%m %R"
+format = "%a %d/%h/$Y %T"
 
 [[block]]
 block = "uptime"
