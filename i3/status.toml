@@ -32,7 +32,7 @@ block = "sound"
 [[block]]
 block = "time"
 interval = 60
-format = "%a %d/%h/$Y %T"
+format = "%a %d/%h/%Y %T"
 
 [[block]]
 block = "uptime"
