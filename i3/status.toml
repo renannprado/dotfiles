@@ -14,7 +14,7 @@ interval = 1
 [[block]]
 block = "disk_space"
 path = "/"
-alias = "/"
+alias = ""
 info_type = "available"
 unit = "GB"
 interval = 60
