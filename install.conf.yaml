@@ -11,6 +11,7 @@
     ~/.zlogin:
         path: zsh/zlogin
     ~/.config/i3: i3
+    ~/.config/rofi: rofi
     # ~/.editorconfig:
     # ~/.gitconfig:
     # ~/.gitignore_global:
@@ -28,7 +29,7 @@
     # ~/.config/i3-scrot.conf: i3-scrot.conf
     # ~/.config/polybar: polybar
     # ~/.config/dunst: dunst
-    # ~/.config/rofi: rofi
+    
     # ~/.config/nvim: nvim
     # ~/.config/alacritty: alacritty
 
