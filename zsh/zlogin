@@ -1,1 +1,7 @@
 export NODE_EXTRA_CA_CERTS='/opt/custom-certificates/root-ca-home.pem'
+
+# This is mostly used for secrets or anything that 
+# I cannot commit into git
+if [[ -e ~/.zlogin_local ]]; then
+  source ~/.zlogin_local
+fi
