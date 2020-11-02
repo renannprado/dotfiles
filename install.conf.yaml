@@ -15,6 +15,7 @@
     ~/.config/i3: i3
     ~/.config/rofi: rofi
     ~/.tool-versions:
+    ~/.ssh/config: ssh/config
     # ~/.editorconfig:
     # ~/.gitconfig:
     # ~/.gitignore_global:
