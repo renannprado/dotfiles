@@ -15,7 +15,10 @@
     ~/.config/i3: i3
     ~/.config/rofi: rofi
     ~/.tool-versions:
+    # ssh stuff
     ~/.ssh/config: ssh/config
+    ~/.config/systemd/user/ssh-agent.service: systemd/ssh-agent.service
+    ~/.pam_environment:
     # ~/.editorconfig:
     # ~/.gitconfig:
     # ~/.gitignore_global:
@@ -39,3 +42,4 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+    - [systemctl --user enable ssh-agent.service, Enabling ssh-agent]

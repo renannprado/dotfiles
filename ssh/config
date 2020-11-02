@@ -1,5 +1,11 @@
+Host *
+    AddKeysToAgent yes
+
 Host github.com
+    IdentitiesOnly yes
     IdentityFile ~/.ssh/id_private
 
 Host *.home
+    IdentitiesOnly yes
     IdentityFile ~/.ssh/id_home
+    User root
