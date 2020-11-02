@@ -1,0 +1,4 @@
+# Import bitwarden session if available
+if [[ -e ~/.bitwarden_session ]]; then
+  source ~/.bitwarden_session
+fi

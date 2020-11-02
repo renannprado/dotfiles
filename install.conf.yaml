@@ -10,6 +10,8 @@
         path: zsh/zshrc
     ~/.zlogin:
         path: zsh/zlogin
+    ~/.zshenv:
+        path: zsh/zshenv
     ~/.config/i3: i3
     ~/.config/rofi: rofi
     ~/.tool-versions:
